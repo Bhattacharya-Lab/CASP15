@@ -10,6 +10,7 @@ The metrics used for comparison were:
 GDC-SC and GDT-TS are part of the Local Global Alignment (LGA) tool which can be download [here](http://as2ts.proteinmodel.org/AS2TS/Download_code/)
 
 lDDT is a standalone tool which can be downloaded [here](https://www.openstructure.org/docs/2.3/install/)
+
 TMscore is also available for download [here](https://zhanggroup.org/TM-score/)
 
 1. [AlphaFold2 Results](#alphafold2-msas-located-at-alphafold2-msas)
