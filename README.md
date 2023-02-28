@@ -1,4 +1,3 @@
-# CASP15
 This repo contains all PDBs generated and metrics calculated to benchmark the predictive modeling performance of AlphaFold2, RoseTTAFold, ESMFold, and OmegaFold on a set of 69 [CASP15](https://predictioncenter.org/casp15/index.cgi) single-chain protein targets with available experimental coordinates.
 
 The predicted structures for each method are in their respective folders. For MSA-based methods, the link to the MSAs are provided.
