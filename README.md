@@ -1,24 +1,28 @@
 # CASP15
-This repo contains all PDBs generated and metrics calculated for the comparison of state of the art protein srtucture prediction methods. The predicted structures for each method are in their respective folders. For MSA based methods, the link to the MSAs are linked next to the method's table.
+This repo contains all PDBs generated and metrics calculated to benchmark the predictive modeling performance of AlphaFold2, RoseTTAFold, OmegaFold, and ESMFold on a set of 69 [CASP15](https://predictioncenter.org/casp15/index.cgi) single-chain protein targets with available experimental coordinates.
+
+The predicted structures for each method are in their respective folders. For MSA-based methods, the link to the MSAs are provided.
 
 The metrics used for comparison were:
 - Global Distance Test - Total Score (GDT-TS)
 - Global Distance Calculation - Side-chain (GDC-SC)
-- TMscore
-- Local Distance Difference Test (lDDT)
+- template modeling score (TMscore)
+- Local Distance Difference Test (LDDT)
 
-GDC-SC and GDT-TS are part of the Local Global Alignment (LGA) tool which can be download [here](http://as2ts.proteinmodel.org/AS2TS/Download_code/)
+GDT-TS and GDC-SC are part of the Local Global Alignment (LGA) tool which can be download [here](http://as2ts.proteinmodel.org/AS2TS/Download_code/)
 
-lDDT is a standalone tool which can be downloaded [here](https://www.openstructure.org/docs/2.3/install/)
+LDDT is a standalone tool which can be downloaded [here](https://www.openstructure.org/docs/2.3/install/)
 
-TMscore is also available for download [here](https://zhanggroup.org/TM-score/)
+TM-score is also available for download [here](https://zhanggroup.org/TM-score/)
 
-1. [AlphaFold2 Results](#alphafold2-msas-located-at-alphafold2-msas)
-2. [RoseTTAFold Results](#rosettafold-msas-located-at-rosettafold-msas)
+1. [AlphaFold2 Results](#alphafold2)
+2. [RoseTTAFold Results](#rosettafold)
 3. [ESMFold Results](#esmfold)
 4. [OmegaFold Results](#omegafold)
 
-## AlphaFold2 MSAs located at [AlphaFold2 MSAs](https://zenodo.org/record/7682977)
+## AlphaFold2 
+
+MSAs located at [AlphaFold2 MSAs](https://zenodo.org/record/7682977)
 | Target      | GDT-TS | GDC-SC | TMscore | Global LDDT |
 |-------------|--------|--------|---------|-------------|
 | T1104.pdb   | 94.02  | 61.32  | 0.95    | 0.86        |
@@ -92,7 +96,9 @@ TMscore is also available for download [here](https://zhanggroup.org/TM-score/)
 | T1194.pdb   | 98.91  | 64.15  | 0.99    | 0.90        |
 | Mean        | 73.06  | 45.48  | 0.78    | 0.80        |
 
-## RoseTTAFold MSAs located at [RoseTTAFold MSAs](https://zenodo.org/record/7682977)
+## RoseTTAFold
+
+MSAs located at [RoseTTAFold MSAs](https://zenodo.org/record/7682977)
 | Target      | GDT-TS | GDC-SC | TMscore | Global LDDT |
 |-------------|--------|--------|---------|-------------|
 | T1104.pdb   | 53.63  | 13.46  | 0.59    | 0.53        |
