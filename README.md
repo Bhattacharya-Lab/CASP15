@@ -5,7 +5,7 @@ The predicted structures for each method are in their respective folders. For MS
 The metrics used for comparison were:
 - Global Distance Test - Total Score (GDT-TS)
 - Global Distance Calculation - Side-chain (GDC-SC)
-- template modeling score (TMscore)
+- Template Modeling Score (TMscore)
 - Local Distance Difference Test (LDDT)
 
 GDT-TS and GDC-SC are part of the Local Global Alignment (LGA) tool which can be download [here](http://as2ts.proteinmodel.org/AS2TS/Download_code/)
