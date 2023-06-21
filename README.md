@@ -14,6 +14,8 @@ LDDT is a standalone tool which can be downloaded [here](https://www.openstructu
 
 TM-score is also available for download [here](https://zhanggroup.org/TM-score/)
 
+MolProbity can be installed locally via the GitHub Repositry [here](https://github.com/rlabduke/MolProbity) or run via the webserver [here](http://molprobity.biochem.duke.edu/)
+
 1. [AlphaFold2 Results](#alphafold2)
 2. [RoseTTAFold Results](#rosettafold)
 3. [ESMFold Results](#esmfold)
