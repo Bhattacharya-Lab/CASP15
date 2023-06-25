@@ -7,7 +7,7 @@ The metrics used are:
 - Global Distance Calculation - Side-chain (GDC-SC)
 - Template Modeling Score (TMscore)
 - Local Distance Difference Test (LDDT)
-- MolProbity score (MPscore)
+- MolProbity score (MolProbity)
 
 GDT-TS and GDC-SC are part of the Local Global Alignment (LGA) tool which can be download [here](http://as2ts.proteinmodel.org/AS2TS/Download_code/)
 
