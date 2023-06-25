@@ -2,11 +2,12 @@ This repo contains all PDBs generated and metrics calculated to benchmark the pr
 
 The predicted structures for each method are in their respective folders. For MSA-based methods, the link to the MSAs are provided.
 
-The metrics used for comparison were:
+The metrics used are:
 - Global Distance Test - Total Score (GDT-TS)
 - Global Distance Calculation - Side-chain (GDC-SC)
 - Template Modeling Score (TMscore)
 - Local Distance Difference Test (LDDT)
+- MolProbity score (MPscore)
 
 GDT-TS and GDC-SC are part of the Local Global Alignment (LGA) tool which can be download [here](http://as2ts.proteinmodel.org/AS2TS/Download_code/)
 
