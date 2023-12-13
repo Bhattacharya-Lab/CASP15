@@ -4,11 +4,9 @@ by Bernard Moussad, Rahmatullah Roche, Debswapna Bhattacharya
 
 published in [PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.2303499120)
 
-This repo contains all PDBs generated and metrics calculated to benchmark the predictive modeling performance of AlphaFold2, RoseTTAFold, ESMFold, and OmegaFold on a set of 69 [CASP15](https://predictioncenter.org/casp15/index.cgi) single-chain protein targets with available experimental coordinates.
-
-
 <a href="https://zenodo.org/doi/10.5281/zenodo.8153086"><img src="https://zenodo.org/badge/607225167.svg" alt="DOI"></a>
 
+This repo contains all PDBs generated and metrics calculated to benchmark the predictive modeling performance of AlphaFold2, RoseTTAFold, ESMFold, and OmegaFold on a set of 69 [CASP15](https://predictioncenter.org/casp15/index.cgi) single-chain protein targets with available experimental coordinates.
 
 The predicted structures for each method are in their respective folders. For MSA-based methods, the link to the MSAs are provided.
 
